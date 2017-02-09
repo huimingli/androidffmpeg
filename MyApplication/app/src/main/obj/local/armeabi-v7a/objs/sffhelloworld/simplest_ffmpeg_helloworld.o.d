@@ -26,7 +26,9 @@
   /home/huimingli/Desktop/androidffmpeg/MyApplication/app/src/main/jni/libavformat/avio.h \
   /home/huimingli/Desktop/androidffmpeg/MyApplication/app/src/main/jni/libavformat/version.h \
   /home/huimingli/Desktop/androidffmpeg/MyApplication/app/src/main/jni/libavfilter/avfilter.h \
-  /home/huimingli/Desktop/androidffmpeg/MyApplication/app/src/main/jni/libavfilter/version.h
+  /home/huimingli/Desktop/androidffmpeg/MyApplication/app/src/main/jni/libavfilter/version.h \
+  /home/huimingli/Desktop/androidffmpeg/MyApplication/app/src/main/jni/libswscale/swscale.h \
+  /home/huimingli/Desktop/androidffmpeg/MyApplication/app/src/main/jni/libswscale/version.h
 
 /home/huimingli/Desktop/androidffmpeg/MyApplication/app/src/main/jni/com_android_camera_myapplication_MainActivity.h:
 
@@ -81,3 +83,7 @@
 /home/huimingli/Desktop/androidffmpeg/MyApplication/app/src/main/jni/libavfilter/avfilter.h:
 
 /home/huimingli/Desktop/androidffmpeg/MyApplication/app/src/main/jni/libavfilter/version.h:
+
+/home/huimingli/Desktop/androidffmpeg/MyApplication/app/src/main/jni/libswscale/swscale.h:
+
+/home/huimingli/Desktop/androidffmpeg/MyApplication/app/src/main/jni/libswscale/version.h:

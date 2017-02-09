@@ -62,8 +62,8 @@ extern "C" {
  * Method:    avcodecinfo
  * Signature: ()Ljava/lang/String;
  */
-JNIEXPORT jstring JNICALL Java_com_android_camera_myapplication_MainActivity_avcodecinfo
-  (JNIEnv *, jobject);
+JNIEXPORT int JNICALL Java_com_android_camera_myapplication_MainActivity_decode
+    (JNIEnv *env, jobject obj, jstring input_jstr, jstring output_jstr);
 
 #ifdef __cplusplus
 }
