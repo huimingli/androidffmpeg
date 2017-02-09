@@ -75,8 +75,8 @@ JNIEXPORT int JNICALL Java_com_android_camera_myapplication_MainActivity_decode
 		LOGE("Couldn't find a video stream.\n");
 		return -1;
 	}
-	pCodecCtx=pFormatCtx->streams[videoindex]->codec;
-	pCodec=avcodec_find_decoder(pCodecCtx->codec_id);
+	pCodecCtx=pFormatCtx->streams[videoindex]->codec;//视频流的编码器上下文
+	pCodec=avcodec_find_decoder(pCodecCtx->codec_id);//通过编码器上下文找到解码器id，通过解码器id取得解码器
 	if(pCodec==NULL){
 		LOGE("Couldn't find Codec.\n");
 		return -1;
