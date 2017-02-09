@@ -19,7 +19,6 @@
 JNIEXPORT jstring JNICALL Java_com_android_camera_myapplication_MainActivity_avcodecinfo
 		(JNIEnv *env, jobject jobject1){
 	char info[10000] = { 0 };
-
-	sprintf(info, "%s\n", avcodec_configuration() , avcodec_license());
+	sprintf(info, "ffmpeg配置：%s\n", avcodec_configuration());
 	return (*env)->NewStringUTF(env, info);
 }
